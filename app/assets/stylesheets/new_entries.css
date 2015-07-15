@@ -1,0 +1,14 @@
+#textin {
+    margin-left: 2em
+}
+
+#textout {
+    width: 700px;
+    height: 610px;
+    float: right;
+    border: 1px solid #CCC;
+    padding: 1em;
+    display: block;
+    overflow: auto;
+    line-height: 1.5em;
+}

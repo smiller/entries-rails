@@ -15,6 +15,11 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+require_relative "../lib/entry"
+require_relative "../lib/line"
+require_relative "../lib/html_formatter"
+require_relative "../lib/entry_builder"
+
 module EntriesRails
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
