@@ -15,6 +15,7 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+require_relative "../lib/trimmer"
 require_relative "../lib/entry"
 require_relative "../lib/line"
 require_relative "../lib/html_formatter"

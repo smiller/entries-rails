@@ -1,10 +1,10 @@
-#textin {
+#textin, #md_textin {
     margin-left: 2em
 }
 
-#textout {
+#textout, #md_textout {
     width: 700px;
-    height: 610px;
+    height: 290px;
     float: right;
     border: 1px solid #CCC;
     padding: 1em;
